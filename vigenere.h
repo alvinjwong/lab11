@@ -19,7 +19,7 @@ class Vigenere {
     void setKey(std::string key);
 
     private:
-    std::string key_t;
+    std::string key;
     
     std::string repeatKey(std::string msg);
 
